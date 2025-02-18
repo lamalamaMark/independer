@@ -431,27 +431,6 @@
       <!-- Page 2, visibile after clicking the button-->
       <main class="hidden bg-[#F0F0F3] min-h-screen pt-32" id="result">
         <div class="container mx-auto px-4 py-8">
-          <!-- Back button -->
-          <a
-            href="#"
-            class="inline-flex items-center text-purple-600 mb-6 js-to-home"
-          >
-            <svg
-              class="w-5 h-5 mr-2"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-            Terug
-          </a>
-
           <!-- Title -->
           <h1 class="text-4xl font-bold text-purple-900 mb-8 font-roboto-slab">
             Jouw persoonlijke top 1
@@ -466,7 +445,7 @@
               <div
                 class="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6"
               >
-                <div class="w-20 h-20 md:w-24 md:h-24">
+                <div class="w-20 md:w-24">
                   <img
                     src="/happiness-logo.png"
                     alt="Company Logo"
@@ -495,13 +474,13 @@
                       class="flex items-center justify-center md:justify-start space-x-2"
                     >
                       <span class="text-gray-600">Contract:</span>
-                      <span class="text-gray-800">te bepalen</span>
+                      <span class="text-gray-800 font-bold">te bepalen</span>
                     </div>
                     <div
                       class="flex items-center justify-center md:justify-start space-x-2"
                     >
                       <span class="text-gray-600">Duurzaamheid:</span>
-                      <span class="text-green-500">A+</span>
+                      <span class="text-green-500 font-bold">A+</span>
                     </div>
                   </div>
                 </div>
@@ -518,11 +497,10 @@
 
             <!-- Company name and benefits -->
             <div class="mt-8">
-              <h2
-                class="text-2xl font-bold text-gray-800 mb-4 text-center md:text-left"
-              >
+              <h2 class="font-bold text-gray-800 mb-2 text-center md:text-left">
                 Happiness Amsterdam
               </h2>
+
               <ul class="space-y-2">
                 <li class="flex items-start md:items-center space-x-2">
                   <svg
