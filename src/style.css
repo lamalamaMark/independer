@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/proxima-nova-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+  --font-roboto-slab: "Roboto Slab", serif;
+  --font-proxima-nova: "Proxima Nova", sans-serif;
+}
